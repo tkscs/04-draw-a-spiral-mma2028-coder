@@ -25,6 +25,22 @@ The turtle starts at position(0, 0) with heading 0 degrees.
 """
 
 ### YOUR CODE STARTS HERE
+speed = 0
+turtle.speed(speed)
+for j in range(5):  
+    turtle.up()
+    turtle.setposition(0, 0) 
+    turtle.down()
+    turtle.left(20)
+    for i in range(5):
+        total_degrees_turned_so_far = i * 30
+        turtle.forward(phi**(i/6))
+        turtle.right(20)
+    
+
+
+
+
 
 
 ### YOUR CODE ENDS HERE
